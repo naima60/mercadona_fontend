@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&display=swap');
+
+.content-main{
+  background: url('../../assets/images/carousel_1.jpg') no-repeat top right/cover; 
+  border-radius: 25px;
+  padding: 90px;
+  height: 690px;    
+}
+
+.content-text{
+  max-width: 500px;
+}
+ 
+
+.content-title{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 700;
+  width: 700px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.content-title em{
+  color: #229e6b;
+
+}
+.content-subtitle{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+
+
+ 
+}

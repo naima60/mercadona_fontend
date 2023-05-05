@@ -1,6 +1,6 @@
 import Api from '../../components/Api/Api'
 import React, { useState } from 'react';
-import '../Product/Product.css'
+import './ProductFilter.css'
 
 
 const ProductFilter = () => {  
@@ -37,7 +37,7 @@ const ProductFilter = () => {
               <>
                 {categories.map(category => (
                   <h1 key={category.id}>
-                    <button className='btn btn-warning w-100 mb-4' onClick={() => handleCategoryClick(category.id)}>{category.libelle}</button>
+                    <button className='btn btn-color-all w-100 mb-4' onClick={() => handleCategoryClick(category.id)}>{category.libelle}</button>
                   </h1>
                 ))}
               </>
@@ -47,7 +47,7 @@ const ProductFilter = () => {
             <div className='col-md-10'>
               <div className='row'>
                 {products.map(produit => (
-                  <div className='col-md-2 mb-4' key={produit.id}>
+                  <div className='col-md-2 mb-4 card-container' key={produit.id}>
                     <div className="card" >
                       <img src={produit.image} className="card-img-top" alt={produit.libelle} />
                       <div className="card-body">

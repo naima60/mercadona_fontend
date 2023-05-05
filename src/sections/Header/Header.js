@@ -1,7 +1,8 @@
 import { useState } from 'react';
-//import Product from '../Product/Product';
+
 import ProductFilter from '../ProductFilter/ProductFilter';
-import  carousel_1 from '../../assets/images/carousel_1.jpg';
+import Content from '../Content/Content';
+import logo_mercadona from '../../assets/images/logo_mercadona.jpg';
 import './Header.css'
 
 
@@ -31,7 +32,6 @@ function Header() {
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     
                     <a class="nav-item nav-link" onClick={() => setActiveTab('category')}>Category</a>
-                    
                     <a class="nav-item nav-link" onClick={() => setActiveTab('home')}>Home</a>
                     <a href="about.html" class="nav-item nav-link">About Us</a>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
@@ -41,16 +41,11 @@ function Header() {
     </div>
 
    
-    {activeTab === 'home' && (
-      <div>
-        <h4>Mercadona vous souhaite la bienvenue!</h4>
-        <img src={carousel_1} alt='carousel_1' />
-        <h1>Your Title Here</h1>
-        <p>Your Text Here</p>
-      </div>
-    )}
+    {activeTab === 'home' && <Content/>}
     {activeTab === 'category' && <ProductFilter />}
   </header>
+
+
     
   );
 }
