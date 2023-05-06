@@ -16,7 +16,7 @@
 
 .footer .btn.btn-link::before {
   position: relative;
-  content: "\f50";
+  content: "\f150";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #999999;
@@ -36,16 +36,24 @@
 }
 
 .footer .copyright a {
-  color: var(--light);
+  color: #F7F8FC;
 }
 
 .footer .copyright a:hover {
-  color: var(--primary);
+  color: #3CB815;
 }
 
 h1{
   color: #3cb815;
 }
+
 .adress, .links{
   margin-left: 160px;
+  padding-top: 30px;
+}
+
+
+.d-flex{
+  padding-bottom: 30px;
+  
 }
