@@ -38,11 +38,12 @@ body{
 
 
 
-.btn-color-all, .btn-all{
-  border-radius: 5px;
+.btn-category,.btn-all{
+  border-radius: 8px;
   background-color: #7ed957;
-  font-size: 20px;
-  font-weight: 600;
-   margin: 0.2em;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+  
 }
 
