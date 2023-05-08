@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mercadona_fontend/static/css/main.f85ab888.css",
+    "main.js": "/mercadona_fontend/static/js/main.ccd21d23.js",
+    "static/media/fond_header_2.jpg": "/mercadona_fontend/static/media/fond_header_2.e791e33c2f61c5c320bd.jpg",
+    "static/media/fond_1.jpg": "/mercadona_fontend/static/media/fond_1.785b30032a97d0a3fcc2.jpg",
+    "static/media/fond_2.jpg": "/mercadona_fontend/static/media/fond_2.9e4a51250f732c2e3049.jpg",
+    "index.html": "/mercadona_fontend/index.html",
+    "main.f85ab888.css.map": "/mercadona_fontend/static/css/main.f85ab888.css.map",
+    "main.ccd21d23.js.map": "/mercadona_fontend/static/js/main.ccd21d23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f85ab888.css",
+    "static/js/main.ccd21d23.js"
+  ]
+}
