@@ -1,3 +1,5 @@
+# mercadona_fontend
+
 # Description de l’application
 Cette application frontend est développée dans le cadre de ma formation développeur web Python.  Elle représente un site vitrine du super marché espagnol « Mercadona » à titre d’exemple seulement.
 Ce projet frontend est développé en utilisant React pour la création de l'interface utilisateur de mon application. Il communique avec deux API REST créées dans une autre application Django pour la partie backend  afin de récupérer et envoyer les données nécessaires représentant les produits et leur catégories. Vous trouverez ci-dessous le lien Git du projet backend avec Django.
