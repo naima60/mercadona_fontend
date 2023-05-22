@@ -1,43 +1,46 @@
-# Getting Started with Create React App
+# Description de l’application
+Cette application frontend est développée dans le cadre de ma formation développeur web Python.  Elle représente un site vitrine du super marché espagnol « Mercadona » à titre d’exemple seulement.
+Ce projet frontend est développé en utilisant React pour la création de l'interface utilisateur de mon application. Il communique avec deux API REST créées dans une autre application Django pour la partie backend  afin de récupérer et envoyer les données nécessaires représentant les produits et leur catégories. Vous trouverez ci-dessous le lien Git du projet backend avec Django.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lien application Django (backend) 
+Afin de visualiser les produits que j’ai déjà stocké dans la base de données hébergée sur le site alwaysdata , il convient d’installer le projet suivant sur votre machine à l’aide du fichier Readme le concernant : 
+Lien : https://github.com/naima60/backend_mercadona.git
 
-## Available Scripts
+# Accéder au site Mercadona sans l’installer sur votre machine
+Copier/coller cette url dans votre navigateur : https://naima60.github.io/mercadona_fontend/
+ou
+A partir de votre position actuelle, aller dans settings\pages\ dans l’encadré  Your site is live at : cliquer sur  le lien :  https://naima60.github.io/mercadona_fontend/
 
-In the project directory, you can run:
+# Installation le projet sur votre machine
+1. Version node.js à installer 
+v18.15.0 (https://nodejs.org/fr/download/releases)
 
-### `npm start`
+2. Clonez ce dépôt sur votre machine locale en exécutant la commande :
+git clone https://github.com/naima60/mercadona_fontend.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Ouvrez le projet avec un éditeur de code comme Visual studio code 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Pour installer les dépendances JavaScript, exécutez la commande :
+ npm install
 
-### `npm test`
+## Structure du projet
+- `src/`: Contient le code source de l'application.
+- `components/`: Composants réutilisables.
+-  `public/`: Fichiers publics statiques.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Utilisation
+1. Pour démarrer l'application en mode développement, exécutez la commande :
+npm start
+2. Accédez à `http://localhost:3000` dans votre navigateur pour voir l'application.
 
-### `npm run build`
+## Fonctionnalités
+- Accès à la liste des produits : cliquer sur le bouton Produits de la barre de navigation.
+- Visualiser les promotions : Le prix des produits en promotion apparait en rouge.
+- Trier les produits par catégorie : à partir de la liste des produits, cliquer sur un bouton des catégories présentes, le système interroge la base des données et affiche uniquement les produits affectés à cette dernière.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Auteur
+Naima Boutrah
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
