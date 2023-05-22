@@ -49,7 +49,7 @@ const ProductFilter = () => {
                   <div className='col-md-10'>
                     <div className='row'>
                       {products.map(produit => (
-                        <div className='col-md-2 mb-4 card-container' key={produit.id}>
+                        <div className='card-container col-md-2 mb-4 ' key={produit.id}>
                           <div className="card" >
                             <img src={produit.image} className="card-img-top" alt={produit.libelle} />
                             <div className="card-body">

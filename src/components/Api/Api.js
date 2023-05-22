@@ -16,9 +16,7 @@ function Api(props) {
 
   }, [props.url, props.category]);
 
-  
-  
-
+   
 
   return (
     <>

@@ -1,52 +1,37 @@
-import { useState } from 'react';
-
-import ProductFilter from '../ProductFilter/ProductFilter';
-import Content from '../Content/Content';
-import logo from '../../assets/images/logo.jpg';
+import React from 'react'
 import './Header.css'
+import fond_1 from '../../assets/images/fond_1.jpg'
+import fond_2 from '../../assets/images/fond_2.jpg'
 
-
-
-function Header() {
-
-  const [activeTab, setActiveTab] = useState('home');
-
-  const handleCategoryClick = () => {
-    setActiveTab('category');
-  };
-
+const Header = () => {
   return (
-    <header>
-
-<div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-
- <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="fw-bold text-logo m-0">Mercadona</h1>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-6 p-lg-2">                    
-                    <a class="nav-item nav-link" onClick={() => setActiveTab('category')}>Produits</a>
-                    <a class="nav-item nav-link" onClick={() => setActiveTab('home')}>Accueil</a>
-                    <a href="index" class="nav-item nav-link">Magasins</a>
-                    <a href="index" class="nav-item nav-link">Nous contacter</a>
-                </div>                               
-            </div> 
-
-        </nav>            
+    <div>
+          <h1>Nos engagements</h1>
+        
+          <div class="profil-container1">
+          <div class="image-container1">        
+              <img className = "image-profil1" src={fond_1} alt='fond produit1'/>
+          </div>
+          <div class="text-container1">
+              <p className='text-profil1'>Notre mission est de faciliter la vie quotidienne de nos clients en leur offrant
+            un ensemble de produits de qualité au meilleur prix possible pour leur permettre de
+              faire leurs courses dans un environnement agréable et de confiance.</p>
+          </div>
+        </div>
+          <div class="profil-container2">
+          <div className="image-container2">      
+              <img className = "image-profil2" src={fond_2} alt='fond produit'/>
+          </div>
+          <div class="text-container2">
+               <p  className='text-profil2'>Nos produits sont sélectionnés avec soin pour répondre à vos
+          besoins et à vos attentes. Nous faisont tout notre possible pour vous offrir des produits
+            de qualité au meilleur prix possible.</p>
+          </div>
+</div>
     </div>
 
-   
-    {activeTab === 'home' && <Content/>}
-    {activeTab === 'category' && <ProductFilter />}
-  </header>
-
-
     
-  );
+  )
 }
 
-export default Header;
+export default Header
