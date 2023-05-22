@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mercadona_fontend/static/css/main.86feab88.css",
-    "main.js": "/mercadona_fontend/static/js/main.4dcf137d.js",
+    "main.css": "/mercadona_fontend/static/css/main.07881b05.css",
+    "main.js": "/mercadona_fontend/static/js/main.6cf4a66d.js",
     "static/media/fond_header_2.jpg": "/mercadona_fontend/static/media/fond_header_2.e791e33c2f61c5c320bd.jpg",
     "static/media/fond_1.jpg": "/mercadona_fontend/static/media/fond_1.785b30032a97d0a3fcc2.jpg",
     "static/media/fond_2.jpg": "/mercadona_fontend/static/media/fond_2.9e4a51250f732c2e3049.jpg",
     "index.html": "/mercadona_fontend/index.html",
-    "main.86feab88.css.map": "/mercadona_fontend/static/css/main.86feab88.css.map",
-    "main.4dcf137d.js.map": "/mercadona_fontend/static/js/main.4dcf137d.js.map"
+    "main.07881b05.css.map": "/mercadona_fontend/static/css/main.07881b05.css.map",
+    "main.6cf4a66d.js.map": "/mercadona_fontend/static/js/main.6cf4a66d.js.map"
   },
   "entrypoints": [
-    "static/css/main.86feab88.css",
-    "static/js/main.4dcf137d.js"
+    "static/css/main.07881b05.css",
+    "static/js/main.6cf4a66d.js"
   ]
 }
