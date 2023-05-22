@@ -8,10 +8,12 @@ Lien : https://github.com/naima60/backend_mercadona.git
 
 # Accéder au site Mercadona sans l’installer sur votre machine
 Copier/coller cette url dans votre navigateur : https://naima60.github.io/mercadona_fontend/
+
 ou
+
 A partir de votre position actuelle, aller dans settings\pages\ dans l’encadré  Your site is live at : cliquer sur  le lien :  https://naima60.github.io/mercadona_fontend/
 
-# Installation le projet sur votre machine
+# Installation du projet sur votre machine
 1. Version node.js à installer 
 v18.15.0 (https://nodejs.org/fr/download/releases)
 
@@ -26,7 +28,7 @@ git clone https://github.com/naima60/mercadona_fontend.git
 ## Structure du projet
 - `src/`: Contient le code source de l'application.
 - `components/`: Composants réutilisables.
--  `public/`: Fichiers publics statiques.
+-  `public/`: Fichier public statique.
 
 ## Utilisation
 1. Pour démarrer l'application en mode développement, exécutez la commande :
